@@ -91,7 +91,7 @@ h6 {
   font-family: "Arbutus Slab";
   font-size:1.75rem;
   line-height: 3rem;
-  color:red;
+  color:var(--dark);
   font-weight:700;
   letter-spacing:3px;
 }
