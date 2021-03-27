@@ -1,2 +1,0 @@
-# horrorbookclub
- Web Development Project
