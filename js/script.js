@@ -1,3 +1,7 @@
+/*The Slick Js and Jquery libraries were used for the carousel script, the script was adapted from the demo section on their website https://kenwheeler.github.io/slick/*/
+/* The Form Focus code adapted from UoL Coursera video 8.2.8 Form Events at https://www.coursera.org/learn/uol-web-development/lecture/Sy7AO/8-2-8-form-events*/
+
+//SLICK CAROUSEL SCRIPT - responsive to resizing//
 if ($('.carousel123').length > 0) {
 jQuery(document).ready(function(){
     $('.carousel123').slick({
@@ -40,25 +44,14 @@ jQuery(document).ready(function(){
           slidesToScroll: 1
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
     ]
     });
     });
 }
-//cookie popup using jquery start
-if(localStorage.getItem('cookieSeen') != 'shown'){
-    $(".cookie-banner").delay(2000).fadeIn();
-    localStorage.setItem('cookieSeen','shown')
-}
 
-$('.close').click(function(e) {
-  $('.cookie-banner').fadeOut(); 
-});
-// cookie popup using jquery end
+//SLICK CAROUSEL SCRIPT END//
 
-//check if form exists and add focus//
+// FORM FOCUS script- check if form exists and add focus//
 if ($('#form').length > 0) {
 
 var form = document.getElementById("form");
@@ -70,9 +63,9 @@ form.addEventListener("blur", function(event){
   event.target.style.background="";
 }, true); 
 }
-//form focus end//
+//FORM FOCUS script end//
 
-//translate book title//
+//TRANSLATION SCRIPT- book title//
 
 var allp = document.getElementsByTagName("h6");
 var buy = document.getElementsByTagName("button")
@@ -120,8 +113,5 @@ function return_default(){
     location.reload(); // reload page to return to english
 }
 }
-///translate book title//
+///translation script end//
 
-//slick carousel//
-
-    //slick carousel

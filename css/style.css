@@ -19,7 +19,7 @@
 /* vars */
 :root {
   --dark: #2A2E39;
-  --light: #C0C0C0;
+  --light: #E0E0E0;
   --pink:#E90B0B;
   --brown:#9F878D;
   --lightbrown:#BEA18B;
@@ -27,7 +27,7 @@
   --darkgrey:#443c41;
   --grey: #706c6f;
   --black:#000000;
-  --form:	#C0C0C0;
+  --form:	#8A92A8;
 }
 /* vars end */
 /* body */
@@ -154,10 +154,10 @@ label {
 #logo {
   font-family: "Madjoe";
   color:var(--light);
-  font-size: 5vh;
+  font-size:5vh;
   margin-top:10px;
-  margin-left:30px;
-  letter-spacing: 3px;
+  margin-left:15px;
+  letter-spacing: 7px;
   text-transform: uppercase;
   text-decoration: none;
 }
