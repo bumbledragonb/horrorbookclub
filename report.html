@@ -1,0 +1,215 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Large Coursework Report</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body class="light-block">
+
+<div class="text-center mx-auto py-5 col-10">
+    <h1>Report: Large Coursework </h1>
+    <h2>BRUNA RÖTZSCH</h2>
+    <h3>Introduction</h3>
+    <p>
+        My website is Horror Book Club website. The website is for people interested in horror literature and being part of a reading community. I absolutely love books and especially horror books and, therefore, knew that I could speak from a place of intricate knowledge and design accordingly. This website has five different sections: The Main Page, A Book of The Month page, a Top Ten Page, a Blog Page and an About Us Page. They all follow the same basic structure with the body blocks being used for different purposes at different times (Articles, Blog Posts, Sliders, Contact Forms, etc).   
+    </p>
+    <p>
+        I have chosen to use a simple structure that is basically a fixed nav bar, a line drawing image header, a body with three columns max  (but usually two) that you can horizontally scroll and a footer. Every page follows a similar structure, but the elements in the body are slightly different. My aim was to make a visually appealing, but functional website that focus on the content and readability. I have also personally written all textual content that is present on the website. Except for two quotes, so I believe I have been able to give it the personal touch of a true horror fan.
+    </p>
+    <h3>Inspiration</h3>
+    <p>
+        I have looked at literary websites such as <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a> <a href="https://lithub.com/" target="_blank">Lithub</a>,
+        <a href="https://www.poetryfoundation.org/" target="_blank">Poetry Foundation</a>, <a href="https://www.newyorker.com/" target="_blank">The New Yorker</a> and <a href="https://www.theparisreview.org" target="_blank">The Paris Review</a> , for inspiration of what sort of design and structure is used in book review/articles websites so that I had a professional standard to start from. From these I had the overall idea for the font-families (in my case Arbutus Slab, Roboto Slab, Imprima and Montserrat and colour scheme for the basic textual elements (in this case, black & grey).</p>
+        <p>
+            I was inspired by the old-fashioned line drawings that I found on pixabay.com and used as a design element throughout the website. I purposely chose horror /book adjacent drawings such as skulls, snakes, memento mori, bats, organs, crows, etc. And overall, I wanted to implement a old cloth bound edition aesthetic, when the frontispiece and colophon page always used to have line drawings such as:
+        </p>
+        <img class="py-5" src="assets/colophon.jpg" alt=" Book Colophon Line Drawing Picture" />
+        <p>
+            I chose to use earthy and dark tones that matched this antique book aesthetic as opposed to the straight red on black and white aesthetic we see on a lot of horror covers, posters, illustrations, etc. In this way the website has a more folk horror feel and I am combining the aesthetics of a literary article news website with horror imagery and colours (red, black and grey are still used).  I avoided using bright colours that pop and went for a classic horror look, more muted and sepia (more Victorian gothic than Stephen King). Here is one cloth bound cover that inspired me:
+        </p>
+        <img class="py-5" src="assets/batclothbound.jpg" alt=" Bat and Snake Cloth Bound Book Cover" />
+        <h3>Accessibility</h3>
+        <p>
+            Below are three examples of the criteria for accessibility that I met. According to <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">WCAG accessibility Gudeline</a>
+        </p>
+        <p>
+            Guideline 1.1 – Text Alternatives<br>
+            1.1.1 Non-text Content - Level A<br>
+            All of my images have an alt tag description explaining exactly what is pictured. All book covers, for example, have an alt tag explaining that they are the book cover of Title by Author. All pictures and illustrations are fully described. My website could be easily accessed by people with visual impairment as the site could be fully enjoyed without the images as seeing them is not essential to the content and they are decorative.
+        </p>
+        <p>
+            Guideline 3.2 – Predictable<br>
+            3.2.3 Consistent Navigation - Level AA<br>
+            My content has a clear structure and hierarchy, and all pages can be accessed from the same space on every page. The top navbar is fixed and it lists all pages of the website in the same order every time and can be accessed from anywhere on the website. When the page is resized the drop-down menu serves the same function.
+        </p>
+        <p>
+            Guideline 3.1 – Readable<br>
+            3.1.1 Language of Page - Level A<br>
+            All html pages have the appropriate language attributes, and the default language of the webpage can be easily ascertained to be english.
+        </p>
+        <h3>Usability</h3>
+        <p>
+            I have implemented a responsive design with the use of Bootstrap. The website works on the most common resolutions from a  widescreen desktop to a small smartphone. Tis means the users can easily access the website from their preferred devices. It also loads quickly.
+        </p>
+        <p>
+            I have made sure the design is both aesthetically pleasing easy to navigate, uncluttered and that the site is aesthetically pleasing, using only a selected number of font-families and colours.
+        </p>
+        <p>
+            I have  paid attention to readability, using enough white space and appropriate font sizes. I have almost made sure that the contrast between foreground and background is readable on all sections, they have all passed a contrast checker. In this way no user will have to struggle to read and their eyes will not be assaulted. 
+        </p>
+        <h3>Learning</h3>
+        <p>
+            I had to learn how to use Bootstrap by reading the documentation and then applying it practically on the pages. There are a lot of video tutorials and other articles out there, but I found the documentation to be pretty clear and sufficient of all occasions. As the task required a separate CSS style sheet I combined the use of inbuilt categories on bootstrap and my own custom styles on the stylesheet to achieve the final look. 
+        </p>
+        <p>
+            I implemented a javascript image carousel, Slick. I also had to read their documentation to use the slide to the effect that I intended. It was pretty intuitive once I understood the basics. Bootstrap also has an inbuilt carousel which I also used for the Past Reads section, but I found that less responsive and more of a hassle to deal with, so I decided to test slick and much preferred that.
+        </p>
+        <p>
+            Before choosing Bootstrap I looked at different methods of making a website responsive, so I learned a lot about CSS flexbox and was going to implement it, but then I thought we HAD to use a CSS library for the project (due to a comment by a tutor on the forums) so I scrapped that. But before I got to Bootstrap I explored different advantages and disadvantages of templates such as Bulma, Tailwind and Foundation. Bootstrap was the one that was the most supported, so I opted for that. I understand that some people have the opinion that all bootstrap websites end up looking the same, but I believe I managed to achieve a unique look with my website.
+        </p>
+        <h3>Evaluation I</h3>
+        <p>
+            I am quite pleased with my design, I believe I managed to achieve exactly what I envisioned and at the end could make everything that I wanted to work, i.e. structure, size, look, etc. I believe that the final project looks very professional and if I really had a horror book club, I would definitely use it. I believe the HTML is well structured and I am happy with the content that I produced for the website, it fits thematically well and looks like a “real” website.
+        </p>
+        <h3>Evaluation II</h3>
+        <p>
+            I, unfortunately, did not do as much with the JavaScript as I wanted to do, I ran out of time. I got too caught up in trying to learn about and find out about different uses of JavaScript on a website and different plugins and although the tutorials on Coursera explained the basics,  there was much more that could have been there (It said to refer to Intro to programming, but ITP focuses on p5.js and visual use of JavaScript, I did not want to use any js graphics on my website as they didn’t fit the theme). In any case, this is the weakest part of my website as I feel like I could have added much more if only I had more time, but I believe that the ones that I did implement serve a purpose and add to the user experience on the website.
+        </p>
+        <h3>Resources</h3>
+        <p><b>Quotes Used</b></p>
+        <ol style="text-align: left;">
+        <li>
+            <i>“Listen to them, the children of the night. What music they make!”</i> on the Top Ten page is a quote by Bram Stoker from Dracula.
+        </li>
+            <li>“The heart is deceitful above all things, And desperately sick and wicked; Who can understand it fully and know its secret motives?”</i> on the Blog Posts Page is a quote from the Bible:  Jeremiah 17:9 from Amplified Bible Copyright &copy; 2015 by The Lockman Foundation.
+        </li>
+    </ol>
+    <p><b>Libraries, Plugins and External Resources</b></p>
+    <p>Built with <a href="https://getbootstrap.com/" target="blank">Bootstrap</a>. Refered to the <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/" target="blank">Bootstrap Documentation</a></p>
+    <p> Used <a href="https://kenwheeler.github.io/slick/" target="blank">Slick</a> and <a href="https://jquery.com/" target="blank">jQuery</a> Javascript libraries</p>
+    <p>Used Imprima, Arbutus Slab, Roboto Slab and Montserrat <a href="https://fonts.google.com/" target="blank">Google Fonts</a> and <a href="https://www.dafont.com/madjoe.font" target="blank">Madjoe</a> by <a href="https://www.creativefabrica.com/designer/160-studio/ref/236320/" target="blank">160 studio</a>, free for commercial use.
+    <p>All social media icons form <a href="http://www.iconfinder.com" target="blank">Icon Finder</a>, free with a Creative Commons licence.
+    </p>
+    <p>Used Asterisk from <a href="https://fontawesome.com/" target="blank">Font Awesome</a></p>
+<p>
+Arrow Icon by Lyolya from <a href="https://www.flaticon.com/free-icon/right-arrow_109617?related_id=109617" target="blank">Flaticon</a>, free for personal use.
+</p>
+<p>Blog Post Photographs</p>
+<p>
+    All photos are from <a href="https://unsplash.com/" target="blank">Unsplash</a> (free for commercial and non-commercial purposes, no permission/attribution needed) and a Grayscale filter was applied to them.
+</p>
+
+<ol style="text-align: left;">
+    <li>Cracked Doll Photo by Aimee Vogelsang:  <a href="https://unsplash.com/photos/DbJR10fEteE" target="blank">https://unsplash.com/photos/DbJR10fEteE</a></li>
+    <li>Woman Holding a Skull by freestocks: <a href="https://unsplash.com/photos/y_dCjaRWthY" target="blank">https://unsplash.com/photos/y_dCjaRWthY</a></li>
+    <li>Doll’s Heads by Jene Yeo: <a href="https://unsplash.com/photos/HRzQKQOLa2w" target="blank">https://unsplash.com/photos/HRzQKQOLa2w</a></li>
+    <li>Statue by Ante Samarzija: <a href="https://unsplash.com/photos/g1IE7E6jK60" target="blank">https://unsplash.com/photos/g1IE7E6jK60</a></li>
+    <li>Phnom Penh, Cambodia by Marcin Czerniawski: <a href="https://unsplash.com/photos/h-wVXmFsxyk" target="blank">https://unsplash.com/photos/h-wVXmFsxyk</a></li>
+    <li>Castelul Corvinilor by Bojor Gabi: <a href="https://unsplash.com/photos/rYzS7wEVyNI" target="blank">https://unsplash.com/photos/rYzS7wEVyNI</a></li>
+    <li>Path by Miriana Dorobantu: <a href="https://unsplash.com/photos/R1NnjcY2aDI" target="blank">https://unsplash.com/photos/R1NnjcY2aDI</a></li>
+    <li>Stâna lui Burnei, Romania by Miriana Dorobantu: <a href="https://unsplash.com/photos/BLob8tcx8vo" target="blank">https://unsplash.com/photos/BLob8tcx8vo</a></li>
+</ol>
+<p>Line Drawings</p>
+<p>
+    All line drawings used for the layout/navigation are free for commercial use and no attribution required from <a href="https://pixabay.com/users/gdj-1086657" target="blank">Pixabay - User GDJ</a>.
+</p>
+<ol style="text-align: left;">
+    <li>Manticore: <a href="https://pixabay.com/vectors/manticore-monster-line-art-beast-5292617/" target="blank">https://pixabay.com/vectors/manticore-monster-line-art-beast-5292617/</a></li>
+    <li>Owl: <a href="https://pixabay.com/vectors/owl-raptor-bird-bird-of-prey-5782976/" target="blank">https://pixabay.com/vectors/owl-raptor-bird-bird-of-prey-5782976/</a></li>
+    <li>Skull: <a href="https://pixabay.com/vectors/skull-head-cranium-spooky-line-art-5650195/" target="blank">https://pixabay.com/vectors/skull-head-cranium-spooky-line-art-5650195/</a></li>
+    <li>Heart: <a href="https://pixabay.com/vectors/heart-organ-muscle-line-art-5660816/" target="blank">https://pixabay.com/vectors/heart-organ-muscle-line-art-5660816/</a></li>
+    <li>Dragon Skeleton: <a href="https://pixabay.com/vectors/dragon-skeleton-line-art-beast-5593832/" target="blank">https://pixabay.com/vectors/dragon-skeleton-line-art-beast-5593832/</a></li>
+    <li>Vulture: <a href="https://pixabay.com/vectors/vulture-bird-line-art-aves-animal-5689557/" target="blank">https://pixabay.com/vectors/vulture-bird-line-art-aves-animal-5689557/</a></li>
+    <li>Crocodile: <a href="https://pixabay.com/vectors/crocodile-alligator-line-art-animal-5671881/" target="blank">https://pixabay.com/vectors/crocodile-alligator-line-art-animal-5671881/</a></li>
+    <li>Crow: <a href="https://pixabay.com/vectors/crow-bird-line-art-raven-animal-5161177/" target="blank">https://pixabay.com/vectors/crow-bird-line-art-raven-animal-5161177/</a></li>
+    <li>Raven: <a href="https://pixabay.com/vectors/crow-raven-bird-line-art-animal-5569261/" target="blank">https://pixabay.com/vectors/crow-raven-bird-line-art-animal-5569261/</a></li>
+    <li>Owl, Book and Candle: <a href="https://pixabay.com/vectors/owl-reading-book-bird-study-4783407/" target="blank">https://pixabay.com/vectors/owl-reading-book-bird-study-4783407/</a></li>
+    <li>Vulture: <a href="https://pixabay.com/vectors/vulture-bird-line-art-aves-animal-5689557/" target="blank">https://pixabay.com/vectors/vulture-bird-line-art-aves-animal-5689557/</a></li>
+    <li>Bat: <a href="https://pixabay.com/vectors/bats-wings-line-art-flying-animals-5198131/" target="blank">https://pixabay.com/vectors/bats-wings-line-art-flying-animals-5198131/</a></li>
+    <li>Memento Mori: <a href="https://pixabay.com/vectors/memento-mori-death-line-art-5244867/" target="blank">https://pixabay.com/vectors/memento-mori-death-line-art-5244867/</a></li>
+    <li>Snake: <a href="https://pixabay.com/vectors/snake-serpent-line-art-reptile-5689373/" target="blank">https://pixabay.com/vectors/snake-serpent-line-art-reptile-5689373/</a></li>
+    <li>Dodo: <a href="https://pixabay.com/vectors/dodo-bird-line-art-animal-extinct-5207985/" target="blank">https://pixabay.com/vectors/dodo-bird-line-art-animal-extinct-5207985/</a></li>
+</ol>
+<p>Book Covers</p>
+<p>
+    All book covers were taken from storefronts (such as <a href="www.amazon.co.uk" target="blank">Amazon</a>), the publisher’s pages (such as <a href="http://www.penguin.co.uk" target="blank">Penguin</a>)  and review sites (such as <a href="http://bookmarks.reviews" target="blank">Book Marks</a>) and have not been edited. The copyright belongs to the respective publishers and are used under educational purposes/fair use.
+</p>
+
+<ol style="text-align: left;" target="blank">
+    <li>The Haunting of Hill House, We Have Always Lived in The Castle, The Year of The Witching , The Bloody Chamber, Frankenstein, Songs of a Dead Dreamer, The Poison Thread, Bunny &copy;Penguin Random House</li>
+    <li>Dracula with Illustration by Edward Gorey &copy; Barnes & Noble</li>
+    <li>The Beauty  &copy;Undertow Publications</li>
+    <li>Broken Monsters &copy;Mullholand Books</li>
+    <li>Beloved &copy;Vintage Publishing</li>
+    <li>The Cipher &copy;Bantam Doubleday Dell Publishing Group</li>
+    <li>The Hollow Places, The Twisted Ones, The Only Good Indians, Echoes, The loop &copy; Gallery/ Saga Press</li>
+    <li>My Best Friend’s Exorcism, The Southern’s Book Club’s Guide To Slaying Vampires, The Remaking. Whisper Down The Lane &copy;Quirk Books</li>
+    <li>The Boatman’s Daughter, Dracula’s Child, Night Train, Survivor Song &copy;Titan Books</li>
+    <li>White is For Witching &copy; Picador</li>
+    <li>Bedfellow, Ring Shout, Night of The Mannequins &copy; Tordotcom</li>
+    <li>Imaginary Friend &copy;Orion</li>
+    <li>The Need &copy; Chatto & Windus</li>
+    <li>Clown in a Cornfield, The Faceless Old Woman &copy;HarperCollins</li>
+    <li>Trolls &copy; Faber&Faber</li>
+    <li>Children of Chicago &copy;Agora Books</li>
+    <li>Red Hands &copy;St Martin’s Press</li>
+    <li>Tiny Nightmares &copy;Catapult</li>
+    <li>The Hollow Ones &copy;Grand Central Publishing</li>
+    <li>The Living Dead &copy;Tor Books</li>
+    <li>Malorie &copy;Del Rey</li>
+    <li>If it bleeds, Later &copy;Scribner</li>
+    <li>The unsuitable &copy;Henry Holt and Co.</li>
+    <li>Suicide woods &copy;Graywolf Press</li>
+    <li>Violet &copy;Inkshares</li>
+    <li>Tinfoil butterfly &copy; MCD x FSG Originals</li>
+    <li>Growing things, Plain Bad Heroines &copy;William Morrow </li>
+    <li>Near the bone, In The Garden of Spite, The Sundown Motel &copy;Berkley</li>
+    <li>What big teeth &copy; Farrar, Straus and Giroux</li>
+    <li>Never have I ever &copy;Small Beer Press</li>
+    <li>Dowry of blood &copy;Nyx Publishing</li>
+    <li>The blade between &copy;Ecco</li>
+    <li>Thirteen stories &copy;Gollancz</li>
+    <li>Nicnevin and the Blood Queen &copy;Humanoids</li>
+    <li>The Deep &copy; G.P. Putnam's Sons</li>
+    <li>The Wise Friends &copy;Flame Tree Press</li>
+    <li>Our Last Echoes &copy;Viking Books</li>
+    </ol>
+<h3>Appendices</h3>
+<p><b>Site Map</b></p>
+<img src="assets/sitemap.jpg" alt="Horror BookClub Site Map">
+<p>I used <a href="http://octopus.do" target="blank">Octopus</a> to draw the site map</p>
+<p><b>Wireframes (opens in new tab)</b></p>
+<p><a href="assets/wireframes_small/index.png" target="blank">Index WF</a></p>
+<p><a href="assets/wireframes_small/indexmobile.png" target="blank">Index Mobile WF</a></p>
+<p><a href="assets/wireframes_small/botm.png" target="blank">Our Pick WF</a></p>
+<p><a href="assets/wireframes_small/botmmobile.png" target="blank">Our Pick Mobile WF</a></p>
+<p><a href="assets/wireframes_small/blog.png" target="blank">Blog WF</a></p>
+<p><a href="assets/wireframes_small/blogmobile.png" target="blank">Blog Mobile WF</a></p>
+<p><a href="assets/wireframes_small/topten.png" target="blank">Top Ten WF</a></p>
+<p><a href="assets/wireframes_snall/toptenmobile.png" target="blank">Top Ten Mobile WF</a></p>
+<p><a href="assets/wireframes_small/story.png" target="blank">Our Story WF</a></p>
+<p><a href="assets/wireframes_small/storymobile.png" target="blank">Our Story Mobile WF</a></p>
+
+<p><b>Mockups(open in new tab)</b></p>
+<p><a href="assets/mockups_small/indexmockup.png" target="blank">Index Mockup</a></p>
+
+<p><a href="assets/mockups_small/botmmockup.png" target="blank">Our Pick Mockup</a></p>
+
+<p><a href="assets/mockups_small/blogmockup.png" target="blank">Blog Mockup</a></p>
+
+<p><a href="assets/mockups_small/toptenmockup.png" target="blank">Top Ten Mockup</a></p>
+
+<p><a href="assets/mockups_small/storymockup.png" target="blank">Our Story Mockup</a></p>
+
+</div>
+<script src="js/bootstrap/bootstrap.min.jstarget="blank" target="blank"></script>
+</body>
+</html>
